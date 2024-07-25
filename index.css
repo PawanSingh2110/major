@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ html body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    height: 100vh;
+    width: 1005;
+    scroll-behavior: smooth;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(124, 7, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1 div{
+   
+    font-size: 90px;
+    font-weight: 500;
+    
+}
+
+.conner{
+    width: 45px;
+    height: 45px;
+    background-color:transparent;
+    position: absolute;
+    top: 0px;
+    right: 510px;
+    border-top-left-radius: 50px;
+    box-shadow: -6px -11px rgb(249, 115, 22);
+   
+}
+.conner1{
+    width: 45px;
+    height: 45px;
+    background-color:transparent;
+    position: absolute;
+    top: 0px;
+    left: 520px;
+    border-top-right-radius: 55px;
+    box-shadow: 8px -11px rgb(249, 115, 22);
+}
+
+
+
+/* ............................................................................................................. */
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: orangered;
+}
+
+
+
+
+
+
+/* ............................................................................................................. */
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(98, 21, 170);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
