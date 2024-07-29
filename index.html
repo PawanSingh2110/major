@@ -1,83 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css" />
     <title>Document</title>
-</head>
-<body>
-    <div class="page1">
+  </head>
+  <body>
+    <div>
+
+
+
+      <main class="relative">
         <div>
-            SHAPE
+          <img id="shrink-img" src="building.jpg" alt="" class="h-[200vh] w-full absolute" />
         </div>
 
-    </div>
-    <div class="page2 p-5 relative bg-orange-500  ">
-        <div class="nav border rounded-3xl flex justify-between w-[95%] mx-auto   ">
-            <div class=" flex items-center text-white">
-                <a href="#" class="px-5 border rounded-3xl text-xl" >Shape</a>
-                <a href="#" class="px-5 border rounded-3xl text-xl" >About</a>
-                <a href="#" class="px-5 border rounded-3xl text-xl" >Services</a>
-                <a href="#" class="px-5 border rounded-3xl text-xl" >Apartment</a>
-            </div>
-            <div class="flex gap-3 justify-center items-center">
-                <i class="  fa-solid fa-phone  border rounded-full p-1 text-white text-xl " ></i>
-                <h1 class="px-4 border rounded-3xl text-white text-xl">Contact</h1>
-            </div>
+        <!-- page1 -->
 
-        </div>
-
-        <div class="w-[65%] text-end p-3 ml-5">
-            <h1 class="nav-cont text-[5rem] font-light text-white  leading-tight tracking-widest ">
-                Indiviual Building <span>For Your life</span>
-                 
-            </h1>
-        </div>
-
-        <div class="w-[25%] ml-12">
-            <p class=" para text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eos vero necessitatibus culpa ullam molestiae omnis ab debitis officiis ex natus velit possimus, nulla asperiores odio, consequatur cum, animi neque.</p>
-        </div>
-
-        <div class="icons flex flex-col absolute right-5 top-[270px]">
-            <i class="fa-solid fa-key   text-gray-800 bg-white p-2 rounded-full "></i>
-            <i class="fa-regular fa-heart  text-gray-800 bg-white p-2 mt-3 rounded-full"></i>
-            <i class="fa-solid fa-bag-shopping  text-gray-800 bg-white p-2 mt-3 rounded-full"></i>
+        <div
+          class="page1 h-[100vh] bg-black/0 w-full relative flex justify-center item-center"
+        >
+        
+          <h1 class=" shape text-9xl font-bold text-black/90 flex item-center mt-[20%]">
+            Shape
+          </h1>
         </div>
 
 
-        <div class="card  w-[90%] mx-auto h-56 mt-28 grid grid-cols-2  relative">
-            <div class="circle absolute bg-white w-56 h-56 border-[20px] border-orange-500 rounded-full p-1 z-[1]  left-[42%] -top-28 text-white">
-                <div class="bg-slate-500 w-full h-full rounded-full text-center flex items-center justify-center">
-                    <h1 class="text-xl font-bold text-black">Learn More</h1>
+        <!-- page2 -->
+
+        <div class="page2 h-[100vh] w-full bg-black/0 relative py-5">
+            <nav id="navbar" class=" flex justify-between item-center border p-1 w-[90%] mx-auto rounded-3xl ">
+                <div>
+                    <a href="#" class="text-white border-white p-1 border rounded-3xl px-5">Shape</a>
+                    <a href="#" class="text-white border-white p-1 border rounded-3xl px-5">About</a>
+                    <a href="#" class="text-white border-white p-1 border rounded-3xl px-5">Services</a>
+                    <a href="#" class="text-white border-white p-1 border rounded-3xl px-5">Apartment</a>
                 </div>
-            </div>
-            <div class="box h-full bg-black/20 backdrop-blur-2xl rounded-l-[50px]  overflow-hidden  ">
-                <div class="conner1"></div>
-                <div class="p-9 flex gap-5  items-center">
-                    <img src="robot.png" width="130px" alt="" class="border rounded-2xl p-2">
-                    <p class="w-[50%] text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vitae facere sequi ratione natus, accusantium asperiores, maiores quibusdam id molestias ut similique nobis ullam magn</p>
+                <div class="">
+                    <a href="#" class="text-white border-white p-1 border rounded-3xl px-5">Blog</a>
+                    <a href="#" class="text-white border-white p-1 border rounded-3xl px-5">Contact</a>
+                    
                 </div>
+            </nav>
+            <div id="nav-cont" class="w-[65%] text-end p-3 ml-9">
+                <h1 class="nav-cont text-[4rem] font-semibold text-white  leading-tight tracking-widest ">
+                    Indiviual Building <span>For Your life</span>
+                     
+                </h1>
             </div>
-            <div class="box relative h-full bg-black/20 backdrop-blur-2xl rounded-r-[50px] overflow-hidden ">
-                <div class="conner"></div>
-                <div class="p-9 ml-32 flex gap-9  items-center">
-                    <img src="robot.png" width="130px" alt="" class="border rounded-2xl p-2">
-                    <p class="w-[100%] text-white">Lorem  orem ipsum dolor sit amet consecteturipsum dolor sit amet consectetur adipisicing elit. Eos vitae facere sequi ratione natus, accusantium asperiores, maiore</p>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-    <div class="page3">
-
-    </div>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <div id="para" class="w-[25%] ml-20 mt-5">
+                <p class=" para text-white text-sm font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eos vero necessitatibus culpa ullam molestiae omnis ab debitis officiis ex natus velit possimus, nulla asperiores odio, consequatur cum, animi neque.</p>
+            </div>
+    
+            <div id="icons" class="icons flex flex-col absolute right-10 top-[230px]">
+                <i class="fa-solid fa-key   text-gray-800 bg-white p-2 rounded-full "></i>
+                <i class="fa-regular fa-heart  text-gray-800 bg-white p-2 mt-3 rounded-full"></i>
+                <i class="fa-solid fa-bag-shopping  text-gray-800 bg-white p-2 mt-3 rounded-full"></i>
+            </div>
+
+            <div id="card" class="card w-full mt-5 relative">
+              <img src="web.png" alt="" class="w-[70%] mx-auto absolute top-14 left-56 ">
+              <div class="circle h-32 w-32 rounded-full  absolute left-[46%] top-5 flex justify-center item-center border-4 border-white">
+                <div class="innercircle h-28 w-28 bg-black text-white flex justify-center item-center rounded-full mt-1 px-3 py-10"> learn more</div>
+              </div>
+
+
+
+
+              <div class="leaan-cont flex gap-5  top-32  w-full">
+                <img src="https://images.unsplash.com/photo-1635403868664-179c789560a7?q=80&w=1574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100px" class="rounded-3xl absolute left-[280px] top-32" alt="">
+                <p  class= " build text-white text-xm w-[15%] mt-3 top-32 ml-5 absolute left-96">We Apply Mordern techhology of design construction and process management</p>
+              </div>
+              <div class="leaan-cont flex gap-5  top-32  w-full">
+                <img src="https://images.unsplash.com/photo-1635403868664-179c789560a7?q=80&w=1574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100px" class="rounded-3xl absolute right-[550px] top-32" alt="">
+                <p  class= " build text-white text-xm w-[15%] mt-3 top-32  absolute right-[300px]">We Apply Mordern techhology of design construction and process management</p>
+              </div>
+            </div>
+    
+        </div>
+
+        <!-- page3 -->
+
+        <div class=" page3 h-[100vh] w-full bg-black relative">
+            <div class="grid grid-cols-2 p-5">
+              <div>
+                <img id="page3-img" src="building.jpg" alt="" class="h-[200vh] w-[70%] mx-36 rounded-3xl mt-10 h-[85vh] " />
+              </div>
+              <div>
+                <div class=" text-5xl font-bold text-white/90 text-center">
+
+                 <div  class="  page-cont  bg-white w-[60%] p-3 rounded-3xl mt-5 ml-10">
+                  <div class="flex gap-3 items-center p-3  ">
+                    <img id="" src="building.jpg" width="100px" alt="" class=" cont-img rounded-3xl">
+                    <p id="" class=" cont-p text-black text-start  text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium minus cumque iusto quod similique maiores, inventore pariatur non beatae earum provident esse cum dicta veritatis numquam aperiam placeat vitae quae.</p>
+                  </div>
+                 </div>
+
+                 <div id="" class="  page-cont1  bg-white w-[60%] p-3 rounded-3xl mt-5 ml-10">
+                  <div class="flex gap-3 items-center p-3  ">
+                    <p id="" class=" cont-p1 text-black text-start  text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium minus cumque iusto quod similique maiores, inventore pariatur non beatae earum provident esse cum dicta veritatis numquam aperiam placeat vitae quae.</p>
+                    <img id="" src="building.jpg" width="100px" alt="" class=" cont-img1 rounded-3xl">
+                  </div>
+                 </div>
+
+                
+           
+
+              
+
+                  <div class=" left-down bg-black absolute bottom-11 right-32  p-5 rounded-tl-3xl ">
+                    <h2 class=" conner rotate-0 absolute -bottom-4 -left-[60px]   "></h2>
+                    <h2 class="conner1 rotate-30 absolute -top-10 left-[245px]"></h2>
+                  
+                      
+
+                    <h1 class=" left-down-cont  text-8xl font-medium">Indiviual Building</h1>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+
+
+
+
+      </main>
+
+
+
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <script src="index.js"></script>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>

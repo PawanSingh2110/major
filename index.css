@@ -1,87 +1,83 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
- html body{
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    height: 100vh;
-    width: 1005;
-    scroll-behavior: smooth;
+@font-face {
+  font-family: NeutralFace;
+  src: url(NeutralFace.otf);
+}
+@font-face {
+  font-family: NT;
+  src: url(NT.otf);
 }
 
-.page1{
-    height: 100vh;
-    width: 100%;
-    background-color: rgb(124, 7, 235);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+
+
+
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
 
-.page1 div{
-   
-    font-size: 90px;
-    font-weight: 500;
-    
+.page1 {
+  font-family: NeutralFace;
+}
+.nav {
+  font-family: NeutralFace;
+}
+
+.page2 h1 {
+  font-family: NeutralFace;
+}
+.para {
+  font-family: NeutralFace;
+}
+.left-down {
+  font-family: NeutralFace;
+}
+.build {
+  font-family: NT;
+}
+.cont-p {
+  font-family: NT;
+}
+.cont-p1 {
+  font-family: NT;
+}
+
+/* #navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+} */
+
+#navbar, #nav-cont, #para, #icons,#card {
+  display: none; 
+
 }
 
 .conner{
-    width: 45px;
-    height: 45px;
-    background-color:transparent;
-    position: absolute;
-    top: 0px;
-    right: 510px;
-    border-top-left-radius: 50px;
-    box-shadow: -6px -11px rgb(249, 115, 22);
-   
+  border-bottom-right-radius:30px ;
+  width: 40px;
+  height: 40px;
+  background-color:transparent;
+  margin: 20px;
+  box-shadow: 13px 9px black;
+
+  
+
+  
 }
 .conner1{
-    width: 45px;
-    height: 45px;
-    background-color:transparent;
-    position: absolute;
-    top: 0px;
-    left: 520px;
-    border-top-right-radius: 55px;
-    box-shadow: 8px -11px rgb(249, 115, 22);
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-bottom-right-radius:30px ;
+  box-shadow: 13px 15px black;
+
 }
-
-
-
-/* ............................................................................................................. */
-.page2{
-    height: 100vh;
-    width: 100%;
-    background-color: orangered;
-}
-
-
-
-
-
-
-/* ............................................................................................................. */
-.page3{
-    height: 100vh;
-    width: 100%;
-    background-color: rgb(98, 21, 170);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
